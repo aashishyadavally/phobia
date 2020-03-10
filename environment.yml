@@ -1,0 +1,26 @@
+name: phobia
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core stack
+  - python>=3.6
+
+  # Scraping
+  - beautifulsoup4
+
+  # Basic Analytics and Visualization
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+
+  # Requirement for reading Excel files
+  - xlrd
+
+  # Notebooks
+  - jupyter
